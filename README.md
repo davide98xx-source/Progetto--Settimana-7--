@@ -33,17 +33,6 @@ sport-hub/
     ├── classes.js   # Classi Squadra ed Evento
     ├── render.js    # Rendering e riferimenti agli elementi HTML
     └── storage.js   # Lettura e salvataggio dei preferiti
-Avvio in locale
-I moduli JavaScript ES devono essere caricati da un server locale: non aprire index.html direttamente con un URL file://.
 
-Con Visual Studio Code
-Apri la cartella sport-hub in Visual Studio Code.
-Avvia index.html con l'estensione Live Server.
-Come usare l'app
-Digita il nome di una squadra nella barra di ricerca. La ricerca parte dopo una breve pausa; puoi anche premere Cerca o Invio.
-Seleziona Eventi e risultati sulla card per caricare i dati della squadra.
-Premi la stella per aggiungere o rimuovere la squadra dai preferiti.
-I preferiti sono memorizzati localmente nel browser e non vengono sincronizzati tra dispositivi o browser diversi.
-
-API e limiti
+    API e limiti
 L'app usa gli endpoint v1 di TheSportsDB per cercare squadre e caricare eventi. La disponibilità dei dati e i limiti di richiesta dipendono dal servizio e dal piano API: consulta la documentazione ufficiale per i dettagli aggiornati.
